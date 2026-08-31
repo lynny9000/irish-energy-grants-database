@@ -1,6 +1,6 @@
 # Home Energy Grant Management System
 
-A SQL Server and Python-based energy grant management system with an interactive Streamlit dashboard for visualising applications, properties, grants and contractor activity across Ireland.
+A SQL Server and Python based energy grant management system with an interactive Streamlit dashboard for visualising applications, properties, grants and contractor activity across Ireland.
 
 ## Features
 
@@ -19,7 +19,7 @@ A SQL Server and Python-based energy grant management system with an interactive
 
 The project uses SQL Server as the backend relational database and Streamlit as the frontend dashboard framework.
 
-The database schema was designed using a relational structure with primary keys, foreign keys, constraints and a junction table to model many-to-many relationships.
+The database schema was designed using a relational structure with primary keys, foreign keys, constraints and a junction table to model many to many relationships.
 
 ## Database Relationships
 
@@ -50,7 +50,7 @@ The system contains the following core tables:
 
 * Primary keys used throughout
 * Foreign key constraints enforce relational integrity
-* Junction table used for many-to-many grant relationships
+* Junction table used for many to many grant relationships
 * Composite primary key used in Application_Grant table
 * Approved and requested grant amounts stored at junction table level
 * Eircode validation using SQL CHECK constraints
