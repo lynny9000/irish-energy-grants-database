@@ -105,4 +105,3 @@ python -m streamlit run dashboard.py
 * Streamlit used for frontend dashboard interface
 * Plotly used for interactive charts and graphs
 * Pandas used for SQL data processing and manipulation
-* Designed as a portfolio project for SQL, Python and dashboard development practice
